@@ -1,6 +1,6 @@
 // 例子：UDP服务端
-// var targetHOST = '127.0.0.1';
-var targetHOST = '94.191.127.164';
+var targetHOST = '127.0.0.1';
+
 var targetPORT = 33333;
 var dgram = require('dgram');
 var server = dgram.createSocket('udp4');
